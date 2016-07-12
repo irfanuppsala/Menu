@@ -1,0 +1,80 @@
+html { 
+  background: url(../img/light.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0px;
+}
+h1{
+	color: yellow;
+}
+p{
+	color: #FFFFFF;
+}
+#content{
+	margin: 50px;
+	width: 80%;
+	text-align: justify;
+}
+#menuField /* id for black panel*/
+{
+	color: #FFFFFF; width: 100%; height: 100px; 
+	background-color: #000000; 
+	position: relative; top: 310px;
+	opacity: 0.75; /* How tranparent the panel will be. 1 is not at all*/
+}
+#menu{ /* id for black element*/  
+	font-size: 22px;
+	padding-top: 35px;
+}
+li a:link { /* unvisited link */
+	color: white;
+}
+li a:visited { /* visited link */ 
+	color: yellow;
+}
+li a:hover { /* mouse over link */  
+	color: gray;
+}
+li a:active { /* selected link */
+	color: gray;
+}
+li { 
+	float: left; 
+}
+
+/* Every link inside <li> but not outside of it*/
+li a {
+	padding: 48px; 
+	text-decoration: none;
+	font-weight: bolder;
+}
+#inner { /* För att centrera menyn*/ 
+	width: 50%;
+	margin: 0 auto;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+}
+.blueBox{
+	background: #627da0;
+	position: fixed;
+	left: 150px;
+
+	/* For setting Blue box exactly in the middle of the page*/
+	/*position: absolute;
+	top: 50%;
+	margin-top: -50px;*/
+}
+.greenBox{
+	background: green;
+
+	/*margin: 0 auto;*/
+}
